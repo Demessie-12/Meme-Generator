@@ -56,6 +56,12 @@ main {
   grid-template: 40px 40px / 1fr 1fr;
   gap: 15px;
 }
+@media screen and (max-width: 600px) {
+  .form {
+    grid-template: 40px 40px 40px / 1fr ;
+    gap: 10px;
+  }
+}
 
 .form--input {
   font-size: 20px;
