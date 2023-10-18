@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    color: white;
+    background-color: rgba(158, 4, 158, 0.89);
+    align-items: center;
+}
+
+.header--title {
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+.header--project {
+    font-weight: 500;
+    margin-right: 25px;
+}

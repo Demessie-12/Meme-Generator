@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: rgba(15, 13, 13, 0.945); */
+  background-color: white;
+  color: black;
+}
+* {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: gray;
+}
+
+main {
+  padding: 20px 10vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background-color: rgb(36, 36, 184);
+  color: white;
+  padding: 20px;
+}
+
+.header--image {
+  height: 100%;
+  border-radius: 7px;
+  margin-right: 10px;
+}
+
+.header--title {
+  font-size: 20px;
+  margin-right: auto;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 15px;
+}
+
+.form--input {
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  text-indent: 10px;
+}
+
+.form--button {
+  grid-column: 1/-1;
+  border-radius: 5px;
+  background-color: rgb(36, 36, 184);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.meme-image {
+  /* display: block; */
+  width: 100%;
+  margin: 10px auto;
+}
+/* .fieldset {
+  border: transparent;
+}
+.signup-form {
+  padding: 20px;
+}
+textarea {
+  margin: 10px 0;
+}
+fieldset {
+  border: none;
+} */
+
+.counter--count {
+  display: block;
+  text-align: center;
+}
+
+
+.meme {
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+
+}
+
+#meme-top-text {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#meme-bottom-text {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
